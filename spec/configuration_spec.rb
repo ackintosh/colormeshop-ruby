@@ -12,14 +12,14 @@ OpenAPI Generator version: 3.0.0-SNAPSHOT
 
 require 'spec_helper'
 
-describe OpenapiClient::Configuration do
-  let(:config) { OpenapiClient::Configuration.default }
+describe Color::Configuration do
+  let(:config) { Color::Configuration.default }
 
   before(:each) do
     # uncomment below to setup host and base_path
     # require 'URI'
     # uri = URI.parse("https://api.shop-pro.jp/")
-    # OpenapiClient.configure do |c|
+    # Color.configure do |c|
     #   c.host = uri.host
     #   c.base_path = uri.path
     # end
